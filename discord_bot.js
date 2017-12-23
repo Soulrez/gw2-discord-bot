@@ -22,6 +22,7 @@ features.forEach(feature => {
 
 bot.on("ready", function() {
 	console.log('bot ready');
+	bot.user.setGame('Praise Richard')
 });
 
 bot.on("disconnected", function() {
